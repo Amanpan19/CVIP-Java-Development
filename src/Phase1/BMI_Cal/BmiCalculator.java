@@ -14,7 +14,7 @@ public class BmiCalculator {
         System.out.print("Enter your weight(kg): ");
         double weight = sc.nextDouble();
 
-        System.out.print("Now, Enter your height(kg):");
+        System.out.print("Now, Enter your height(cm):");
         double height = sc.nextDouble()/100;
 
         System.out.println();
