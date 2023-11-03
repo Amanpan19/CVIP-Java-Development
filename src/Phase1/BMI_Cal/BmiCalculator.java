@@ -1,4 +1,4 @@
-package Phase1;
+package Phase1.BMI_Cal;
 
 import java.util.Scanner;
 
@@ -17,10 +17,14 @@ public class BmiCalculator {
         System.out.print("Now, Enter your height(kg):");
         double height = sc.nextDouble()/100;
 
+        System.out.println();
+
         System.out.println("Hmm, Wait I'm Checking your BMI");
 
         double bmi = getYourBmi(weight,height);
-        String formattedBmi = String.format("%.2f",bmi);
+
+        String formattedBmi = String.format("%.2f",bmi);//just for formatting the result upto 2 decimal points.
+
         String result = interpretation(bmi);
 
         System.out.println("Your BMI is  : "+formattedBmi);
