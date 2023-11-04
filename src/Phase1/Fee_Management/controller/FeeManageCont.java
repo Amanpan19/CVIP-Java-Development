@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class FeeManageCont {
 
-     Student stuInfo = new Student();
      Scanner sc = new Scanner(System.in);
      public List<Student> studentList = new ArrayList<>();
 

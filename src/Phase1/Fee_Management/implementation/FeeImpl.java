@@ -75,10 +75,8 @@ public class FeeImpl {
                         System.out.println("Choose one of the Option.\n1. Pay\n2. Leave");
                         int choose = sc.nextInt();
                         switch (choose) {
-
                             case 1:
                                 feeManageCont.displayListOfStudents(list);
-
                                 feeManageCont.payRemainingFee(studentId);
                                 break;
 
