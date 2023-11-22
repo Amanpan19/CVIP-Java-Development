@@ -89,7 +89,7 @@ public class Atm_Impl {
                     System.out.println("Deposit At least 2000 rupees..!");
                     System.out.print("Enter the Amount: ");
                     double amt = sc.nextDouble();
-                    System.out.println(name);
+
                     User user = new User(name,userPin,accNum,amt);
                     balanceOperation.addUser(user);
                     flag = true;
